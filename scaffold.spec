@@ -11,11 +11,11 @@ BuildRequires:	GConf2-devel
 BuildRequires:	gdl-devel >= 0.4.0
 BuildRequires:	gnome-build-devel >= 0.1.0
 BuildRequires:	gnome-vfs2-devel >= 2.3.5
-Buildrequires:	libbonoboui-devel >= 2.3.3
-Buildrequires:	libglade2-devel
-Buildrequires:	libgnomeui-devel >= 2.3.3
-Buildrequires:	libxml2-devel >= 2.5.8
-Buildrequires:	vte-devel >= 0.11.0
+BuildRequires:	libbonoboui-devel >= 2.3.3
+BuildRequires:	libglade2-devel
+BuildRequires:	libgnomeui-devel >= 2.3.3
+BuildRequires:	libxml2-devel >= 2.5.8
+BuildRequires:	vte-devel >= 0.11.0
 Requires(post):	/sbin/ldconfig
 Requires(post):	GConf2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
