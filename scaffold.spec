@@ -29,26 +29,26 @@ Scaffold (formalnie znany jako anjuta2) jest Zintegrowanym
 ¦rodowiskiem Programistycznym (IDE) dla GNOME.
 
 %package devel
-Summary:  Header files for scaffold
-Summary(pl):  Pliki nag³ówkowe scaffold
-Group:    Development/Libraries
-Requires: %{name} = %{version}
-                                                                                
+Summary:	Header files for scaffold
+Summary(pl):	Pliki nag³ówkowe scaffold
+Group:		Development/Libraries
+Requires:	%{name} = %{version}
+
 %description devel
 Header files for scaffold.
-                                                                                
+
 %description devel -l pl
 Pliki nag³ówkowe scaffold.
 
 %package static
-Summary:  Static scaffold library
-Summary(pl):  Statyczna biblioteka scaffold
-Group:    Development/Libraries
-Requires: %{name}-devel = %{version}
-                                                                                
+Summary:	Static scaffold library
+Summary(pl):	Statyczna biblioteka scaffold
+Group:		Development/Libraries
+Requires:	%{name}-devel = %{version}
+
 %description static
 Static scaffold library.
-                                                                                
+
 %description static -l pl
 Statyczna biblioteka scaffold.
 
