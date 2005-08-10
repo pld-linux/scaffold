@@ -5,7 +5,7 @@ Version:	0.1.0
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/0.1/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/scaffold/0.1/%{name}-%{version}.tar.bz2
 # Source0-md5:	e88c1afa35c42a8baea255ba1387d55b
 BuildRequires:	GConf2-devel
 BuildRequires:	gdl-devel >= 0.4.0
@@ -32,7 +32,7 @@ Scaffold (formalnie znany jako anjuta2) jest Zintegrowanym
 Summary:	Header files for scaffold
 Summary(pl):	Pliki nag³ówkowe scaffold
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files for scaffold.
@@ -44,7 +44,7 @@ Pliki nag³ówkowe scaffold.
 Summary:	Static scaffold library
 Summary(pl):	Statyczna biblioteka scaffold
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static scaffold library.
