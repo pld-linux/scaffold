@@ -91,7 +91,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/%{name}/plugins/lib*.la
 %{_libdir}/%{name}/plugins/*.plugin
 %{_datadir}/application-registry/*
-%{_desktopdir}/*
+%{_desktopdir}/*.desktop
 %{_datadir}/gnome-2.0/ui/*
 %{_mandir}/man1/*
 %{_datadir}/mime-info/*
