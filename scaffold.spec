@@ -25,8 +25,8 @@ Scaffold (formerly known as anjuta2) is a GNOME based Integrated
 Development Environment (IDE).
 
 %description -l pl
-Scaffold (formalnie znany jako anjuta2) jest Zintegrowanym
-¦rodowiskiem Programistycznym (IDE) dla GNOME.
+Scaffold (formalnie znany jako anjuta2) jest zintegrowanym
+¶rodowiskiem programistycznym (IDE) dla GNOME.
 
 %package devel
 Summary:	Header files for scaffold
@@ -82,14 +82,14 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS BUGS ChangeLog NEWS README TODO docs/tool-tutorial.txt
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/%{name}
-%{_sysconfdir}/gconf/schemas/*
 %attr(755,root,root) %{_libdir}/lib*.so.*.*.*
 %dir %{_libdir}/%{name}
 %dir %{_libdir}/%{name}/plugins
 %attr(755,root,root) %{_libdir}/%{name}/plugins/lib*.so*
 %{_libdir}/%{name}/plugins/lib*.la
 %{_libdir}/%{name}/plugins/*.plugin
+%{_datadir}/%{name}
+%{_sysconfdir}/gconf/schemas/*
 %{_datadir}/application-registry/*
 %{_desktopdir}/*.desktop
 %{_datadir}/gnome-2.0/ui/*
