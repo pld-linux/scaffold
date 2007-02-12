@@ -1,5 +1,5 @@
 Summary:	GNOME based Development Environment
-Summary(pl.UTF-8):   Środowisko programistyczne dla GNOME
+Summary(pl.UTF-8):	Środowisko programistyczne dla GNOME
 Name:		scaffold
 Version:	0.1.0
 Release:	1
@@ -30,7 +30,7 @@ Scaffold (formalnie znany jako anjuta2) jest zintegrowanym
 
 %package devel
 Summary:	Header files for scaffold
-Summary(pl.UTF-8):   Pliki nagłówkowe scaffold
+Summary(pl.UTF-8):	Pliki nagłówkowe scaffold
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -42,7 +42,7 @@ Pliki nagłówkowe scaffold.
 
 %package static
 Summary:	Static scaffold library
-Summary(pl.UTF-8):   Statyczna biblioteka scaffold
+Summary(pl.UTF-8):	Statyczna biblioteka scaffold
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
